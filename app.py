@@ -42,92 +42,83 @@ def handle_message(event):
         # 🔻🔻🔻 將你從模擬器複製的 JSON 完整貼在三個雙引號之間 🔻🔻🔻
         flex_json_string = """
         {
-          "type": "bubble",
-          "body": {
-            "type": "box",
-            "layout": "vertical",
-            "contents": [
-              {
-                "type": "text",
-                "text": "🪄選取角色，玩家登入🪄",
-                "color": "#FFFFFF",
-                "align": "start",
-                "offsetTop": "none",
-                "offsetBottom": "none",
-                "margin": "none"
-              },
-              {
-                "type": "text",
-                "text": "選取你的遊戲人物角色，準備登入【聲聲漫】情境劇場，蒐集你的SSR喜劇人物圖鑑，成為一級喜劇玩咖！",
-                "color": "#FFFFFF",
-                "wrap": true,
-                "margin": "lg"
-              },
-              {
-                "type": "text",
-                "text": "       "
-              },
-              {
-                "type": "text",
-                "text": "請問您今天的票區是❓",
-                "color": "#FFFFFF",
-                "offsetTop": "none",
-                "offsetBottom": "none",
-                "offsetStart": "none",
-                "weight": "bold",
-                "wrap": false,
-                "align": "center"
-              },
-              {
-                "type": "text",
-                "text": "      "
-              }
-            ],
-            "backgroundColor": "#3C3C3C"
-          },
-          "footer": {
-            "type": "box",
-            "layout": "vertical",
-            "spacing": "xxl",
-            "contents": [
-              {
-                "type": "button",
-                "style": "link",
-                "height": "md",
-                "action": {
-                  "type": "uri",
-                  "label": "🥇 Lv.1000",
-                  "uri": "https://chinchungpie.github.io/0704-SSR-Gocha-100/"
-                }
-              },
-              {
-                "type": "button",
-                "style": "link",
-                "height": "md",
-                "action": {
-                  "type": "uri",
-                  "label": "🥈 Lv.800",
-                  "uri": "https://chinchungpie.github.io/0704-SSR-Gocha-50/"
-                }
-              },
-              {
-                "type": "button",
-                "action": {
-                  "type": "uri",
-                  "label": "🥉 Lv.600",
-                  "uri": "https://chinchungpie.github.io/0704-SSR-Gocha-10/"
-                },
-                "height": "md",
-                "style": "link"
-              }
-            ],
-            "flex": 0,
-            "margin": "none",
-            "paddingAll": "xxl",
-            "paddingTop": "none",
-            "paddingStart": "none"
-          }
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "🕵️‍♂️選取你的遊戲人物角色，準備登入【聲聲漫】情境劇場，蒐集你的SSR喜劇人物圖鑑，成為一級喜劇玩咖！",
+        "color": "#FFFFFF",
+        "wrap": true,
+        "margin": "none"
+      },
+      {
+        "type": "text",
+        "text": "　　　　　　　"
+      },
+      {
+        "type": "text",
+        "text": "請問您今天的票區是❓",
+        "color": "#FFFFFF",
+        "offsetTop": "none",
+        "offsetBottom": "none",
+        "offsetStart": "none",
+        "weight": "bold",
+        "wrap": false,
+        "align": "center"
+      },
+      {
+        "type": "text",
+        "text": "　　　　　　"
+      }
+    ],
+    "backgroundColor": "#3C3C3C"
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "xxl",
+    "contents": [
+      {
+        "type": "button",
+        "style": "link",
+        "height": "md",
+        "action": {
+          "type": "uri",
+          "label": "🥇 Lv.1000",
+          "uri": "https://chinchungpie.github.io/0704-SSR-Gocha-100/"
         }
+      },
+      {
+        "type": "button",
+        "style": "link",
+        "height": "md",
+        "action": {
+          "type": "uri",
+          "label": "🥈 Lv.800",
+          "uri": "https://chinchungpie.github.io/0704-SSR-Gocha-50/"
+        }
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "🥉 Lv.600",
+          "uri": "https://chinchungpie.github.io/0704-SSR-Gocha-10/"
+        },
+        "height": "md",
+        "style": "link"
+      }
+    ],
+    "flex": 0,
+    "margin": "none",
+    "paddingAll": "xxl",
+    "paddingTop": "none",
+    "paddingStart": "none"
+  }
+}
         """
         # 🔺🔺🔺 貼上 JSON 結束 🔺🔺🔺
 
